@@ -14,6 +14,6 @@ public class StartPos : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        print("im gay");
     }
 }
