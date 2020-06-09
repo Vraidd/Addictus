@@ -19,7 +19,6 @@ public class ActiveScene : MonoBehaviour
             if (LoadNewArea.currentActiveScene == sceneName)
             {
                 gameObject.SetActive(true);
-                print(gameObject.transform.position);
             }
             else if (LoadNewArea.currentActiveScene != sceneName)
             {

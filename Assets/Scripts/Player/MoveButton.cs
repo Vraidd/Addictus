@@ -68,7 +68,6 @@ public class MoveButton : MonoBehaviour
         else if (!PauseButton.mainMenu)
         {
             currentGrid = GameObject.FindWithTag(LoadNewArea.currentActiveScene).GetComponent<Transform>().position;
-            print(GameObject.FindWithTag(LoadNewArea.currentActiveScene));
             GetComponent<SpriteRenderer>().sortingOrder = 1;
             gameObject.transform.position = new Vector3 (gameObject.transform.position.x, gameObject.transform.position.y, currentGrid.z-0.5f);
             

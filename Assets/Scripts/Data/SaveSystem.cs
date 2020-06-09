@@ -63,7 +63,6 @@ public class SaveSystem : MonoBehaviour
             stream7.Close();
             stream8.Close();
         }
-        
     }
 
     public void Load ()
@@ -112,6 +111,7 @@ public class SaveSystem : MonoBehaviour
         catch (SerializationException e)
         {
             Debug.Log("Error deserialising file: " + e.Message);
+            print("All is well");
         }
         finally
         {
